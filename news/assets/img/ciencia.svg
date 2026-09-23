@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="Imagem ilustrativa">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d4634"/><stop offset="1" stop-color="#35a877"/></linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#g)"/>
+  <circle cx="980" cy="170" r="210" fill="#ffffff" opacity=".10"/>
+  <circle cx="880" cy="600" r="130" fill="#ffffff" opacity=".07"/>
+  <path d="M150 620 L360 300 L570 620 Z" fill="#ffffff" opacity=".12"/>
+  <rect x="620" y="430" width="230" height="230" rx="40" fill="#ffffff" opacity=".09"/>
+  <g opacity=".85">
+    <rect x="170" y="632" width="420" height="58" rx="29" fill="#ffffff" opacity=".18"/>
+    <text x="202" y="669" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" fill="#ffffff" letter-spacing="1">Ciência</text>
+  </g>
+</svg>

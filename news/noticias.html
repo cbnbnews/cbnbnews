@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notícias · CBNB NEWS</title>
+<meta name="description" content="Reportagens produzidas pelos estudantes do Colégio Batista Nova Betânia, organizadas por editoria.">
+<meta name="theme-color" content="#0d3b2e">
+<link rel="icon" href="img/cbnb.jpg" type="image/jpeg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+
+<!-- O título e o subtítulo abaixo aparecem na faixa verde no alto da página -->
+<body data-pagina="noticias"
+      data-olho="📰 Editorias"
+      data-titulo="Notícias"
+      data-subtitulo="Reportagens produzidas pelos estudantes do CBNB. Use os filtros para navegar pelas editorias.">
+
+<a class="pular-link" href="#conteudo">Pular para o conteúdo</a>
+<div id="topo-do-site"></div>
+
+<main id="conteudo">
+
+<!-- ==========================================================================
+     PALAVRA DA SEMANA — o versículo vem de PALAVRA_SEMANA, em conteudo.js
+     ========================================================================== -->
+<section class="secao" id="palavra-semana"></section>
+
+<!-- ==========================================================================
+     NOTÍCIAS — com filtros por categoria
+     ========================================================================== -->
+<section class="secao secao--clara" id="noticias">
+  <div class="container">
+    <div class="secao-topo revelar">
+      <div class="secao-titulo">
+        <span class="olho">📋 Todas as matérias</span>
+        <h2>Últimas notícias</h2>
+        <p>Cada matéria passa por pauta, apuração, redação e revisão antes de ser publicada.</p>
+      </div>
+    </div>
+
+    <!-- Filtros de categoria (gerados pelo JavaScript) -->
+    <div class="filtros revelar" id="filtros-noticias" role="tablist" aria-label="Filtrar notícias por categoria"></div>
+
+    <!-- Lista de notícias -->
+    <div class="noticias-grade" id="noticias-grade"></div>
+
+    <div class="carregar-mais">
+      <button class="btn btn--contorno" id="btn-carregar-mais">
+        Carregar mais notícias
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     VOCÊ SABIA? — curiosidades
+     ========================================================================== -->
+<section class="secao" id="curiosidades">
+  <div class="container">
+    <div class="secao-topo revelar">
+      <div class="secao-titulo">
+        <span class="olho">✨ Para descontrair</span>
+        <h2>Você Sabia?</h2>
+        <p>Curiosidades sobre educação, ciência, história, tecnologia e cultura.</p>
+      </div>
+    </div>
+
+    <div class="curiosidades-grade" id="curiosidades-grade"></div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     CHAMADA PARA A SEÇÃO DE OPINIÃO
+     ========================================================================== -->
+<section class="secao">
+  <div class="container">
+    <div class="chamada-final revelar">
+      <h2>Quer ler o que os estudantes pensam?</h2>
+      <p>Os textos de opinião escritos pelas estudantes ficam na seção "A Voz do CBNB",
+         dentro da página da equipe.</p>
+      <div class="botoes">
+        <a href="equipe.html#opiniao" class="btn btn--claro">Ler A Voz do CBNB</a>
+        <a href="entrevistas.html" class="btn btn--claro">Ver a entrevista da edição</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div id="rodape-do-site"></div>
+
+<script src="assets/js/conteudo.js"></script>
+<script src="assets/js/layout.js"></script>
+<script src="assets/js/principal.js"></script>
+</body>
+</html>

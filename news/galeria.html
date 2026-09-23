@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeria · CBNB NEWS</title>
+<meta name="description" content="Galeria de fotos do Colégio Batista Nova Betânia, registradas pela equipe de fotografia do CBNB News.">
+<meta name="theme-color" content="#0d3b2e">
+<link rel="icon" href="img/cbnb.jpg" type="image/jpeg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+
+<body data-pagina="galeria"
+      data-olho="📷 Registros"
+      data-titulo="Galeria"
+      data-subtitulo="Momentos do colégio registrados pela equipe de fotografia do jornal.">
+
+<a class="pular-link" href="#conteudo">Pular para o conteúdo</a>
+<div id="topo-do-site"></div>
+
+<main id="conteudo">
+
+<!-- ==========================================================================
+     GALERIA — fotos com filtros por categoria
+     ========================================================================== -->
+<section class="secao" id="galeria">
+  <div class="container">
+    <div class="secao-topo revelar">
+      <div class="secao-titulo">
+        <span class="olho">🖼️ Acervo</span>
+        <h2>Fotos do CBNB</h2>
+        <p>Clique em uma foto para vê-la ampliada. Use as setas do teclado para navegar.</p>
+      </div>
+    </div>
+
+    <!-- Filtros e fotos: gerados a partir de GALERIA em conteudo.js -->
+    <div class="filtros revelar" id="filtros-galeria"></div>
+    <div class="galeria-grade" id="galeria-grade"></div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     CHAMADA
+     ========================================================================== -->
+<section class="secao secao--clara">
+  <div class="container">
+    <div class="chamada-final revelar">
+      <h2>As fotos também contam a história</h2>
+      <p>A equipe de fotografia acompanha eventos, aulas e bastidores para ilustrar
+         as matérias de cada edição do jornal.</p>
+      <div class="botoes">
+        <a href="equipe.html" class="btn btn--claro">Conheça a equipe de fotografia</a>
+        <a href="noticias.html" class="btn btn--claro">Ler as notícias</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div id="rodape-do-site"></div>
+
+<script src="assets/js/conteudo.js"></script>
+<script src="assets/js/layout.js"></script>
+<script src="assets/js/principal.js"></script>
+</body>
+</html>
